@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Slippery dick - best fisch asshole</title>
+  <link rel="icon" type="image/png" href="slp.png">
+  <style>
+    body {
+      background-color: #000080;
+      background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png');
+      color: #00ff00;
+      font-family: Comic Sans MS, Comic Sans, cursive;
+      margin: 0;
+      padding: 0;
+    }
+
+    marquee {
+      background-color: #ff0000;
+      color: #ffff00;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 8px;
+      border: 4px solid #00ffff;
+    }
+
+    marquee.bottom {
+      background-color: #00ffff;
+      color: #40ff00;
+      font-size: 18px;
+    }
+
+    .header-table {
+      width: 100%;
+      background-color: #15ff00;
+      border: 5px solid #ffff00;
+    }
+
+    .header-table td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    h1.main-title {
+      font-size: 48px;
+      color: #ffff00;
+      text-shadow: 3px 3px #ff0000, 6px 6px #0000ff;
+      text-align: center;
+      font-family: Comic Sans MS;
+      text-decoration: blink;
+      animation: rainbow 0.5s infinite;
+    }
+
+    @keyframes rainbow {
+      0% {
+        color: #ff0000;
+      }
+
+      14% {
+        color: #ff7700;
+      }
+
+      28% {
+        color: #ffff00;
+      }
+
+      42% {
+        color: #00ff00;
+      }
+
+      57% {
+        color: #0000ff;
+      }
+
+      71% {
+        color: #fbff00;
+      }
+
+      85% {
+        color: #40ff00;
+      }
+
+      100% {
+        color: #ff0000;
+      }
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes shake {
+
+      0%,
+      100% {
+        transform: translateX(0);
+      }
+
+      25% {
+        transform: translateX(-6px) rotate(-2deg);
+      }
+
+      75% {
+        transform: translateX(6px) rotate(2deg);
+      }
+    }
+
+    .spinning {
+      display: inline-block;
+      animation: spin 2s linear infinite;
+      font-size: 28px;
+      color: #ff0000;
+    }
+
+    .blink {
+      animation: blink 0.8s step-start infinite;
+      color: #ff0000;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .shake {
+      display: inline-block;
+      animation: shake 0.3s infinite;
+    }
+
+    .main-layout {
+      width: 95%;
+      margin: 0 auto;
+      border: 6px double #ffff00;
+      background-color: #000033;
+      padding: 10px;
+    }
+
+    .section-box {
+      border: 4px solid #00ff00;
+      background-color: #000055;
+      padding: 10px;
+      margin: 15px 0;
+    }
+
+    .section-box h2 {
+      color: #00ff40;
+      font-size: 28px;
+      text-decoration: underline overline;
+      text-align: center;
+      border-bottom: 3px dashed #00ffff;
+      padding-bottom: 5px;
+    }
+
+    .section-box p {
+      color: #ffffff;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+
+    .infobox-old {
+      float: right;
+      width: 220px;
+      border: 4px solid #ffff00;
+      background-color: #330000;
+      padding: 8px;
+      margin: 0 0 10px 15px;
+      font-size: 13px;
+    }
+
+    .infobox-old .ib-title {
+      background-color: #ff0000;
+      color: #ffff00;
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 5px;
+      margin: -8px -8px 8px -8px;
+    }
+
+    .infobox-old img {
+      width: 100%;
+      border: 3px solid #00ff00;
+    }
+
+    .infobox-old table {
+      width: 100%;
+      font-size: 12px;
+      color: #00ffff;
+      border-collapse: collapse;
+    }
+
+    .infobox-old td {
+      border: 1px solid #005500;
+      padding: 3px 5px;
+    }
+
+    .infobox-old td:first-child {
+      color: #ffff00;
+      font-weight: bold;
+    }
+
+    .photo-table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 3px solid #66ff00;
+    }
+
+    .photo-table td {
+      width: 33%;
+      border: 3px solid #00ffff;
+      padding: 5px;
+      text-align: center;
+      background-color: #001133;
+      vertical-align: top;
+    }
+
+    .photo-table img {
+      width: 100%;
+      max-width: 180px;
+      border: 4px ridge #ff0000;
+    }
+
+    .photo-table .cap {
+      color: #ffff00;
+      font-size: 12px;
+      font-style: italic;
+    }
+
+    .hit-counter {
+      text-align: center;
+      border: 4px inset #888;
+      background-color: #111;
+      color: #00ff00;
+      font-family: 'Courier New', monospace;
+      font-size: 22px;
+      padding: 8px;
+      letter-spacing: 4px;
+      width: 220px;
+      margin: 10px auto;
+    }
+
+    .guestbook {
+      border: 4px solid #ffff00;
+      background-color: #1a0033;
+      padding: 12px;
+      margin: 15px 0;
+    }
+
+    .guestbook h2 {
+      color: #2bff00;
+      text-align: center;
+      font-size: 26px;
+      text-decoration: underline;
+    }
+
+    .guestbook-entry {
+      border: 2px dashed #00ff00;
+      padding: 8px;
+      margin: 8px 0;
+      background-color: #000022;
+      font-size: 13px;
+      color: #ccffcc;
+    }
+
+    .guestbook-entry .user {
+      color: #ffff00;
+      font-weight: bold;
+    }
+
+    .guestbook-entry .date {
+      color: #888;
+      font-size: 11px;
+    }
+
+    hr.fancy {
+      border: none;
+      border-top: 4px double #15ff00;
+      margin: 15px 0;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: underline;
+    }
+
+    a:visited {
+      color: #15ff00;
+    }
+
+    a:hover {
+      color: #ffff00;
+      text-decoration: none;
+    }
+
+    .under-construction {
+      background-color: #ffff00;
+      color: #000000;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      padding: 8px;
+      border: 4px solid #ff0000;
+      margin: 10px 0;
+      animation: blink 1s infinite;
+    }
+
+    .meme-box {
+      text-align: center;
+      border: 4px ridge #40ff00;
+      background-color: #110022;
+      padding: 10px;
+      margin: 15px 0;
+    }
+
+    .meme-box img {
+      max-width: 100%;
+      width: 320px;
+      border: 5px solid #00ff00;
+    }
+
+    .meme-box .meme-caption {
+      color: #ffff00;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 6px;
+    }
+
+    .fun-facts-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .fun-facts-list li {
+      color: #ffffff;
+      font-size: 14px;
+      padding: 5px 0 5px 26px;
+      position: relative;
+      border-bottom: 1px dotted #005500;
+      line-height: 1.7;
+    }
+
+    .fun-facts-list li::before {
+      content: ">>>";
+      position: absolute;
+      left: 0;
+      color: #00ff00;
+      font-weight: bold;
+    }
+
+    .best-fish-poll {
+      border: 4px solid #ff0000;
+      background-color: #220000;
+      padding: 12px;
+      margin: 15px 0;
+    }
+
+    .best-fish-poll h3 {
+      color: #ffff00;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .poll-bar-wrap {
+      margin: 6px 0;
+      font-size: 13px;
+      color: #fff;
+    }
+
+    .poll-bar {
+      display: inline-block;
+      height: 16px;
+      background-color: #00cc00;
+      vertical-align: middle;
+      border: 1px solid #009900;
+    }
+
+    .poll-bar.red {
+      background-color: #cc0000;
+    }
+
+    .poll-bar.blue {
+      background-color: #0000cc;
+    }
+
+    .poll-bar.yellow {
+      background-color: #cccc00;
+    }
+
+    .nav-bar {
+      background-color: #330066;
+      border: 4px groove #0044ff;
+      padding: 6px;
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .nav-bar a {
+      color: #ffff00;
+      font-weight: bold;
+      font-size: 14px;
+      margin: 0 12px;
+      text-decoration: none;
+      padding: 3px 8px;
+      border: 2px outset #888;
+      background-color: #000066;
+    }
+
+    .nav-bar a:hover {
+      background-color: #0000cc;
+      border-style: inset;
+    }
+
+    .awards-table {
+      width: 100%;
+      border: 4px ridge #ffff00;
+      border-collapse: collapse;
+    }
+
+    .awards-table th {
+      background-color: #ff0000;
+      color: #ffff00;
+      font-size: 16px;
+      padding: 6px;
+      border: 2px solid #ffff00;
+      text-align: center;
+    }
+
+    .awards-table td {
+      border: 2px solid #005500;
+      padding: 7px 10px;
+      color: #ccffcc;
+      font-size: 13px;
+      background-color: #001100;
+    }
+
+    .awards-table tr:nth-child(even) td {
+      background-color: #002200;
+    }
+
+    .clearfix::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .visitor-badge {
+      display: inline-block;
+      background: #000;
+      border: 3px ridge #ffff00;
+      padding: 4px 10px;
+      font-size: 12px;
+      color: #00ff00;
+      font-family: 'Courier New', monospace;
+    }
+
+    .midi-note {
+      text-align: center;
+      color: #888;
+      font-size: 11px;
+      font-style: italic;
+    }
+
+    .star-divider {
+      text-align: center;
+      color: #ffff00;
+      font-size: 20px;
+      letter-spacing: 8px;
+      margin: 10px 0;
+    }
+
+    .phase-table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 3px solid #00ffff;
+    }
+
+    .phase-table th {
+      background: #51ff00;
+      color: #ffff00;
+      font-size: 15px;
+      padding: 7px;
+      border: 2px solid #ffff00;
+      text-align: center;
+    }
+
+    .phase-table td {
+      border: 2px solid #005577;
+      padding: 8px;
+      vertical-align: top;
+      font-size: 13px;
+      color: #cceeff;
+      background: #001122;
+    }
+
+    .scrolling-fish {
+      font-size: 32px;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 100%;
+      display: block;
+    }
+
+    .footer-table {
+      width: 100%;
+      background-color: #0a0a0a;
+      border-top: 4px double #0097a1;
+      padding: 10px;
+      text-align: center;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- TOP MARQUEE -->
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    BIENVENUE SUR LE MEILLEUR SITE CONSACRÉ AU SLIPPERY DICK &nbsp;&nbsp;&nbsp; CE SITE EST ENTIÈREMENT GRATUIT !!!
+    &nbsp;&nbsp;&nbsp;
+    SLIPPERY DICK = LE MEILLEUR POISSON DE TOUS LES TEMPS !!! (si tu penses le contraire, je viendrai te chercher avec
+    mon
+    AK-47 et je sais
+    où tu habites grâce à ton IP.) &nbsp;&nbsp;&nbsp;
+    RECOMMANDE-LE À TES AMIS !!! Ne fais pas le con &nbsp;&nbsp;&nbsp;
+    SITE DE FANS DE SLIPPERY DICK v2.3
+  </marquee>
+  <div class="nav-bar">
+    <a href="cr.html">[ CZ ]</a>
+    <a href="index.html">[ EN ]</a>
+    <a href="fr.html">[ FR ]</a>
+  </div>
+  <!-- HEADER -->
+  <table class="header-table">
+    <tr>
+      <td width="100px"><span class="spinning">SLIPPERY DICK</span></td>
+      <td>
+        <h1 class="main-title">SLIPPERY DICK WIKI</h1>
+        <div style="text-align:center; color:#ffff00; font-size:17px; font-family: Comic Sans MS;">
+          <span class="shake">★</span>
+          LA PAGE DE FANS NON OFFICIELLE #1 SUR INTERNET !!!
+          <span class="shake">★</span>
+        </div>
+        <div style="text-align:center; margin-top:5px;">
+          <span class="blink">⚠ AVERTISSEMENT : CONTIENT DES MÈMES ⚠</span>
+        </div>
+      </td>
+      <td width="100px"><span class="spinning">SLIPPERY DICK</span></td>
+    </tr>
+  </table>
+
+  <!-- NAV BAR -->
+  <div class="nav-bar">
+    <a href="#prehled">[ aperçu ]</a>
+    <a href="#galerie">[ galerie ]</a>
+    <a href="#memy">[ mèmes ]</a>
+    <a href="#fakta">[ faits ]</a>
+    <a href="#kviz">[ quiz ]</a>
+  </div>
+
+  <!-- UNDER CONSTRUCTION -->
+  <div class="under-construction">
+    Cette page est encore en cours de construction !!!
+  </div>
+
+  <div class="main-layout">
+
+    <!-- SCROLLING FISH -->
+    <marquee behavior="scroll" direction="left" scrollamount="3" class="scrolling-fish">
+      slipperydickslipperydickslipperydickslipperydickslipperydickslipperydickslipperydickslipperydick
+    </marquee>
+
+    <!-- PREHLED SECTION -->
+    <a name="prehled"></a>
+    <div class="section-box clearfix">
+      <h2>Qu'est-ce que SLIPPERY DICK ??? </h2>
+
+      <div class="infobox-old">
+        <div class="ib-title"> SLIPPERY DICK </div>
+        <img
+          src="https://imgs.search.brave.com/4dAuQEfHnPQuTme0jHErd38P-oRCdyqwTMceakTgGa4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vbWV4aWNh/bi1maXNoLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvRjI0OC1T/bGlwcGVyeS1EaWNr/LTYtZTE2MTMwNDU1/ODU4MjEtNTcweDMx/MC5qcGc_cmVzaXpl/PTU3MCwzMTAmc3Ns/PTE"
+          onerror="this.style.height='120px';this.style.background='#003300'" alt="slippery dick ryba" />
+        <br><br>
+        <table>
+          <tr>
+            <td>Nom :</td>
+            <td>Slippery Dick</td>
+          </tr>
+          <tr>
+            <td>Nom latin :</td>
+            <td><i>H. bivittatus</i></td>
+          </tr>
+          <tr>
+            <td>Largeur :</td>
+            <td>jusqu'à 35 cm !!!</td>
+          </tr>
+          <tr>
+            <td>Vit jusqu'à :</td>
+            <td>5 à 7 ans</td>
+          </tr>
+          <tr>
+            <td>Où :</td>
+            <td>Quelque part où tu n'es pas (océan Atlantique)</td>
+          </tr>
+          <tr>
+            <td>Cool ? :</td>
+            <td>Ouais !!!! </td>
+          </tr>
+          <tr>
+            <td>En voie de disparition :</td>
+            <td>Non (jamais de la vie)</td>
+          </tr>
+          <tr>
+            <td>Sexe :</td>
+            <td>femelle→mâle </td>
+          </tr>
+        </table>
+      </div>
+
+      <p>
+        <b style="color:#ffff00">SLIPPERY DICK</b> est un poisson qui vit dans l'océan Atlantique et qui est sans aucun
+        doute
+        <b style="color:#ff0000">LE MEILLEUR POISSON DU MONDE</b> !!!
+        Son nom scientifique est <i>Halichoeres bivittatus</i>, ce qui vient du latin et signifie quelque chose comme «
+        à deux
+        bandes », mais
+        qui s'en soucie quand le nom anglais est aussi génial lol !!!
+      </p>
+      <p>
+        Ce poisson est la STAR DES CARAÏBES, du golfe du Mexique et de tout l'Atlantique Ouest, et il est EXTRA
+        SUPER
+        COOL parce que :
+        <br>
+        <span style="color:#00ffff">1)</span> Il est GLISSANT (c'est pour ça qu'on l'appelle SLIPPERY !!!)
+        <br>
+        <span style="color:#00ffff">2)</span> Il change de sexe (WTF ???)
+        <br>
+        <span style="color:#00ffff">3)</span> Il dort DANS LE SABLE (SÉRIEUSEMENT ???)
+        <br>
+        <span style="color:#00ffff">4)</span> Il a LE MEILLEUR NOM DE TOUS LES POISSONS !!!
+      </p>
+
+      <p style="color:#ff8800">
+        <b>NOTE DE L'AUTEUR :</b> Je suis un grand fan de Slippery Dick depuis 2019, quand j'en ai vu un pour la
+        première fois
+        pendant mes vacances dans la
+        chatte de ta mère, et depuis lors,
+        je l'étudie TOUS LES JOURS.
+        Ce site web est le fruit de 7 années de recherche (et de procrastination).
+      </p>
+
+      <div style="clear:both"></div>
+    </div>
+
+    <hr class="fancy">
+
+    <!-- GALLERY -->
+    <a name="gallery"></a>
+    <div class="section-box">
+      <h2>SUPER GALERIE PHOTO</h2>
+      <p style="text-align:center; color:#ffff00; font-size:13px;">
+        (TOUTES LES PHOTOS SONT OFFICIELLES ET AUTHENTIQUES !!!)
+      </p>
+      <table class="photo-table">
+        <tr>
+          <td>
+            <img
+              src="https://imgs.search.brave.com/hX-H8tiKEERpb_iN8UtusTs1Px9Ml4gaKoF8GhmkUS8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cmVlZmd1aWRlLm9y/Zy9waXgvdGh1bWIy/L3NsaXBwZXJ5ZGlj/azEuanBn"
+              onerror="this.style.height='130px';this.style.background='#003300'" alt="slippery dick 1">
+            <div class="cap">Mâle terminal · Les Keys de Floride<br><span style="color:#ff8800">(poisson #1)</span>
+            </div>
+          </td>
+          <td>
+            <img
+              src="https://imgs.search.brave.com/ffMvCWcmDDeAAregLFAl8uRl55kloPK_8j3VEJLMrns/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy80/LzQ1L1NsaXBwZXJ5/X0RpY2ssX1NfT2Nl/YW5fQmx2ZCxfQm9j/YV9SYXRvbixfRkws/X1VTX2ltcG9ydGVk/X2Zyb21faU5hdHVy/YWxpc3RfcGhvdG9f/MzM0NTA0NDM0Xyhj/cm9wcGVkKS5qcGc"
+              onerror="this.style.height='130px';this.style.background='#003355'" alt="slippery dick 2">
+            <div class="cap">Poissons d'élevage · Caribic<br><span style="color:#ff8800">(poisson #2)</span></div>
+          </td>
+          <td>
+            <img
+              src="https://imgs.search.brave.com/W2PCngKfJ7JYAh-o9-UHzzM_-uI4MU1d2qtmiCAikiE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L25h/dHVyZXJ1bGVzMS9p/bWFnZXMvNi82ZS9T/bGlwcGVyeV9EaWNr/X1dyYXNzZV8tX0hh/bGljaG9lcmVzX2Jp/dml0dGF0dXMuanBn/L3JldmlzaW9uL2xh/dGVzdC9zY2FsZS10/by13aWR0aC1kb3du/LzI2OD9jYj0yMDIy/MDMxMzE1NTY0OA"
+              onerror="this.style.height='130px';this.style.background='#003322'" alt="slippery dick 3">
+            <div class="cap">fond de sable · Bahamy<br><span style="color:#ff8800">(poisson #3 )</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://imgs.search.brave.com/CGeKabLi_-Ln7QOMeRLcOjqUKFPtuNAcfZbjqg_JrVY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy84/LzhlL1NsaXBwZXJ5/X2RpY2tfd3Jhc3Nl/Xyhjcm9wcGVkKS5q/cGc"
+              onerror="this.style.height='130px';this.style.background='#002200'" alt="slippery dick 4">
+            <div class="cap">Quelque part en mer · Belize<br><span style="color:#ff8800">(poisson #4)</span></div>
+          </td>
+          <td>
+            <img
+              src="https://imgs.search.brave.com/NVpyhGg-D48NjOMV8t63qiSzUMT_vgr57Luu3YO2EEg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzFlL1NsaXBwZXJ5/X0RpY2tfV3Jhc3Nl/Xy1fSGFsaWNob2Vy/ZXNfYml2aXR0YXR1/c18oY3JvcHBlZCku/anBn"
+              onerror="this.style.height='130px';this.style.background='#110022'" alt="slippery dick 5">
+            <div class="cap">Près de la maison de Patric · Caroline du Sud<br><span style="color:#ff8800">(poisson
+                #5</span></div>
+          </td>
+          <td>
+            <img
+              src="https://imgs.search.brave.com/V7UoS1mjyS1GVcwgIQJuV5BDj7QMeNYm9R55XEVrh1Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cmVlZmd1aWRlLm9y/Zy9waXgvdGh1bWIy/L3NsaXBwZXJ5ZGlj/azEwLmpwZw"
+              onerror="this.style.height='130px';this.style.background='#220011'" alt="slippery dick 6">
+            <div class="cap">J'ai vu un crabe croquant · Gulf<br><span style="color:#ff8800">(poisson #6)</span></div>
+          </td>
+        </tr>
+      </table>
+
+      <p style="text-align:center; color:#888; font-size:11px; margin-top:8px;">
+        ← LES PHOTOS NE PEUVENT PAS ÊTRE UTILISÉES SANS AUTORISATION !!! (mais de toute façon, personne ne les partage,
+        lol) →
+      </p>
+    </div>
+
+    <hr class="fancy">
+
+    <div class="star-divider">★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★</div>
+
+    <!-- MEMY SECTION -->
+    <a name="memy"></a>
+    <div class="section-box">
+      <h2> Mèmes sur le fameux « pénis glissant »</h2>
+      <p style="text-align:center; color:#00ffff">( Attention : TU ES EN TRAIN DE BOIRE QUELQUE CHOSE ? POSE-LE AVANT DE
+        LIRE, POUR
+        TA SÉCURITÉ !!! )</p>
+
+      <table width="100%" cellpadding="10">
+        <tr>
+          <td width="50%" valign="top">
+            <div class="meme-box">
+              <img src="https://i.imgflip.com/30b1gx.jpg"
+                onerror="this.style.height='180px';this.style.background='#222';this.alt='meme'" alt="drake meme"
+                style="width:280px;max-width:100%;border:5px solid #00ff00;">
+              <div class="meme-caption">
+                Drake Non: Poisson ordinaire<br>
+                Drake Oui: SLIPPERY DICK
+              </div>
+            </div>
+          </td>
+          <td width="50%" valign="top">
+            <div class="meme-box">
+              <img src="https://i.imgflip.com/4t0m5.jpg"
+                onerror="this.style.height='180px';this.style.background='#222'" alt="one does not simply meme"
+                style="width:280px;max-width:100%;border:5px solid #00758a;">
+              <div class="meme-caption">
+                C'est pas facile...<br>
+                ...d'attraper ce PÉNIS GLISSANT<br>
+                <span style="font-size:13px;color:#aaa">(parce qu'il est GLISSANT, lol)</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">
+            <div class="meme-box">
+              <div
+                style="background:#222;padding:20px;border:3px solid #ffff00;font-size:28px;text-align:center;min-height:140px;display:flex;align-items:center;justify-content:center;">
+                <div>
+                  <div
+                    style="font-family:Impact,Arial;color:white;font-size:22px;letter-spacing:1px;text-shadow:2px 2px black,-2px -2px black,2px -2px black,-2px 2px black">
+                    BIOLOGIE : SLIPPERY DICK<br>CHANGE DE SEXE</div>
+                  <div style="font-size:48px;margin:10px 0">bruh</div>
+                  <div
+                    style="font-family:Impact,Arial;color:white;font-size:22px;letter-spacing:1px;text-shadow:2px 2px black,-2px -2px black,2px -2px black,-2px 2px black ">
+                    JUBBA : COOL COOL COOL<br>(POKEMON non ?)</div>
+                </div>
+              </div>
+              <div class="meme-caption">NIGGA</div>
+            </div>
+          </td>
+          <td valign="top">
+            <div class="meme-box">
+              <div
+                style="background:#1a1a1a;padding:20px;border:3px solid #00ffff;font-size:14px;color:white;min-height:140px;display:flex;align-items:center;justify-content:center;">
+                <div style="text-align:center">
+                  <div style="font-size:40px">Slippery dick</div>
+                  <div
+                    style="font-family:Impact;font-size:20px;color:white;text-shadow:2px 2px black,-2px -2px black,2px -2px black,-2px 2px black;margin:8px 0">
+                    MOI : Je veux attraper le POISSON GLISSANT</div>
+                  <div style="font-size:14px;color:#aaa;margin:5px">poisson : *il est glissant*</div>
+                  <div
+                    style="font-family:Impact;font-size:20px;color:white;text-shadow:2px 2px black,-2px -2px black,2px -2px black,-2px 2px black">
+                    ...</div>
+                </div>
+              </div>
+              <div class="meme-caption">Tous les hommes-poissons que ta mère a jamais</div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="meme-box">
+              <div
+                style="background:#0a0a0a;padding:25px;border:3px solid #00ff6a;font-size:14px;color:white;text-align:center">
+                <table align="center" cellpadding="8">
+                  <tr>
+                    <td
+                      style="border:3px solid red;background:#300;padding:15px;font-family:Impact;font-size:18px;color:white;text-shadow:2px 2px black,-2px -2px black">
+                      (putain) D'AUTRES POISSONS
+                    </td>
+                    <td style="padding:20px;font-size:36px">contre</td>
+                    <td
+                      style="border:3px solid #00ff00;background:#030;padding:15px;font-family:Impact;font-size:18px;color:white;text-shadow:2px 2px black,-2px -2px black">
+                      (JE DIS OUI) SLIPPERY DICK
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background:#200;color:#00215e;font-size:13px">- nom normal<br>- ne change pas de sexe
+                      <br>- ne dort pas dans le sable<br>- pas cool
+                    </td>
+                    <td></td>
+                    <td style="background:#020;color:#88ff88;font-size:13px">+ SLIPPERY DICK <br>+ change de sexe !
+                      <br>+ dort dans le sable <br>+ ABSOLUMENT COOL
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="meme-caption">Les faits sont les faits (je ne vais pas en débattre)</div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <hr class="fancy">
+
+    <!-- ZAJIMAVE FAKTY -->
+    <a name="fakta"></a>
+    <div class="section-box">
+      <h2> DES FAITS PAS MAL QUE VOUS IGNOREZ !!! </h2>
+
+      <ul class="fun-facts-list">
+        <li>
+          <b style="color:#ffff00">POURQUOI L'ON L'APPELLE « GLISSANT » ???</b> — Parce qu'il est RECOUVERT D'UNE
+          ÉPAISSE BOUE, et quand
+          on essaie de
+          l'attraper, il glisse entre les doigts comme... eh bien, il est tout simplement glissant. Les pêcheurs des
+          Bahamas en font des
+          cauchemars, ha ha ha !
+        </li>
+        <li>
+          <b style="color:#ffff00">CHANGEMENT DE SEXE !!! </b> — Tous les « slippery dicks » naissent FEMELLES ou sous
+          forme de juvéniles sexuellement
+          indifférenciés. Puis, quand il n’y a pas assez de mâles dans la population, certains individus SE TRANSFORMENT
+          LITTÉRALEMENT
+          EN
+          MÂLES !!! C’est comme si tu devenais soudainement quelqu’un d’autre… mais un poisson. C’est quoi ce bordel,
+          l’évolution ???
+        </li>
+        <li>
+          <b style="color:#ffff00">DORMIR DANS LE SABLE !!!</b> — La nuit, il s'enfouit LITTÉRALEMENT dans les fonds
+          marins !!!
+          Pourquoi ??? Pour qu'
+          un prédateur ne le mange pas. Génial, non ??? Essayez vous-même si vous êtes un poisson.
+
+        </li>
+        <li>
+          <b style="color:#ffff00">VOLER COMME UN COLIBRI</b> — Il nage en utilisant ses nageoires pectorales, ce qui
+          donne l’impression
+          qu’il vole sous l’eau.
+          Le terme technique est « nage labriforme », mais en termes simples, je dirais que c’est SUPER COOL.
+        </li>
+        <li>
+          <b style="color:#ffff00">IL A DES DENTS PUISSANTES</b> — Il peut ouvrir des moules, des crabes, des oursins et
+          à peu
+          près
+          tout. Une mâchoire d'enfer. Ou plutôt, des falaises.
+        </li>
+        <li>
+          <b style="color:#ffff00">IL EST COMESTIBLE !!!</b> — On le mange aux Bahamas et en Floride !!! Sa chair est
+          blanche
+          et
+          tendre, mais
+          à cause de la bave, sa préparation est assez désagréable lol. Respect à tous ceux qui en ont mangé.
+        </li>
+        <li>
+          <b style="color:#ffff00">NOM LATIN = DESCRIPTION</b> — « bivittatus » signifie « à deux bandes » en latin.
+          Un nom
+          très créatif, 10/10 en sarcasme.
+        </li>
+        <li>
+          <b style="color:#ffff00">PAS EN DANGER !!!</b> — L'UICN le classe dans la catégorie « Préoccupation mineure »
+          = pas en danger. Bonne
+          nouvelle
+          à tous, comme le dit le professeur Farnsworth !!!
+        </li>
+        <li>
+          <b style="color:#ffff00">NETTOIE LES AUTRES POISSONS</b> — Parfois, il débarrasse les autres poissons de leurs
+          parasites !!! C'est comme
+          un salon de beauté sous-marin, et ce petit malin est un véritable esthéticien.
+        </li>
+        <li>
+          <b style="color:#ffff00">TROIS PHASES DE COULEURS</b> — Comme la puberté, mais trois fois plus intense et avec
+          plus de
+          couleurs.
+          Juvénile
+          (rayé),
+          femelle (brun rosé), mâle (vert+bleu+orange) = trois apparences complètement différentes !!!
+        </li>
+      </ul>
+    </div>
+
+    <hr class="fancy">
+
+    <!-- ZVUKOVA UPOZORNENI -->
+    <div style="text-align:center; border: 4px dashed #ffff00; padding:10px; background-color:#220033; margin:15px 0;">
+      <span style="font-size:22px; color:#ffff00">Il y aura de la musique (je suis un vrai crétin, je le
+        reconnais)</span>
+    </div>
+
+    <hr class="fancy">
+
+    <!-- KLASIFIKACE TABULKA -->
+    <div class="section-box">
+      <h2>CLASSIFICATION SCIENTIFIQUE (ENNUYEUX MAIS IMPORTANT)</h2>
+      <table class="awards-table" width="100%">
+        <tr>
+          <th>NIVEAU</th>
+          <th>NOM</th>
+          <th>CE QUE CELA SIGNIFIE (en simple)</th>
+        </tr>
+        <tr>
+          <td>Règne</td>
+          <td>Animalia</td>
+          <td>Animaux = ont la vie = VIVANTS = youpi</td>
+        </tr>
+        <tr>
+          <td>Classe</td>
+          <td>Actinopterygii</td>
+          <td>Poissons osseux = poissons normaux (à nageoires rayonnées)</td>
+        </tr>
+        <tr>
+          <td>Ordre</td>
+          <td>Perciformes</td>
+          <td>Poissons de type perche = un ordre qui englobe à peu près tout</td>
+        </tr>
+        <tr>
+          <td>Famille</td>
+          <td>Labridae</td>
+          <td>Labres = de magnifiques frères et sœurs SD </td>
+        </tr>
+        <tr>
+          <td>Genre</td>
+          <td>Halichoeres</td>
+          <td>~40 espèces, toutes colorées et géniales</td>
+        </tr>
+        <tr>
+          <td>Espèce</td>
+          <td><b>H. bivittatus</b></td>
+          <td>NOTRE STAR « bivittatus » = 2 bandes</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- ZIVOTNI CYKLUS TABULKA -->
+
+
+    <!-- JIDELNICEK -->
+    <div class="section-box">
+      <h2> QU'EST-CE QUE SLIPPERY DICK ??? (MENU)</h2>
+      <table width="100%" cellpadding="0" cellspacing="10">
+        <tr>
+          <td width="50%" valign="top">
+            <p style="color:#00ffff; font-weight:bold; font-size:15px;">PLATS PRÉFÉRÉS :</p>
+            <ul style="color:#ccffcc; font-size:13px; line-height:2;">
+              <li>Crabes (CHROUSSS !!!)</li>
+              <li>Moules et palourdes (les créatures à coquille dure posent problème)</li>
+              <li>Oursins (probablement bons ? je sais pas)</li>
+              <li>Crevettes (un classique)</li>
+              <li>Vers polychètes (beurk mais bon)</li>
+              <li>Petits poissons (cannibalisme ??? non, d'autres espèces)</li>
+              <li>Seiches et poulpes (raffiné)</li>
+              <li>Zooplancton (quand il n'y a rien d'autre lol)</li>
+            </ul>
+          </td>
+          <td width="50%" valign="top">
+            <p style="color:#ff8800; font-weight:bold; font-size:15px;">ÉVALUATION DU RÉGIME :</p>
+            <p style="color:#fff; font-size:13px; line-height:1.9;">
+              Crabes : <span style="color:#ffff00">★★★ ★★</span> (coup de cœur)<br>
+              Muse : <span style="color:#ffff00">★★★★☆</span> (à décoquer)<br>
+              Oursins : <span style="color:#ffff00">★★★☆☆</span> (piquants, c'est quoi ce bordel)<br>
+              Crevettes : <span style="color:#ffff00">★★★★★</span> (les classiques ne déçoivent jamais)<br>
+              Cervi : <span style="color:#ffff00">★★☆☆☆</span> (mode survie)<br>
+              Petits poissons : <span style="color:#ffff00">★★★☆☆</span> (ça dépend)<br>
+            </p>
+            <p style="color:#888; font-size:11px; font-style:italic;">(C'est mon opinion personnelle, pas un fait
+              scientifique
+              )</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <hr class="fancy">
+
+    <!-- POLL -->
+    <div class="best-fish-poll">
+      <h3>SONDAGE : LE MEILLEUR POISSON ??? (SPOILER : SLIPPERY DICK)</h3>
+      <div class="poll-bar-wrap">
+        Slippery Dick &nbsp;
+        <div class="poll-bar" style="width:280px"></div>
+        &nbsp; <b style="color:#00ff00">87 %</b>
+      </div>
+      <div class="poll-bar-wrap">
+        Nemo &nbsp;
+        <div class="poll-bar red" style="width:30px"></div>
+        &nbsp; 7 % (Mais qui a bien pu voter pour ça ! )
+      </div>
+      <div class="poll-bar-wrap">
+        Carp &nbsp;
+        <div class="poll-bar blue" style="width:15px"></div>
+        &nbsp; 4 % (C'est ta mère qui a voté)
+      </div>
+      <div class="poll-bar-wrap">
+        Jine &nbsp;
+        <div class="poll-bar yellow" style="width:8px"></div>
+        &nbsp; 2 % (Celui qui a mis ça là est juif)
+      </div>
+      <p style="color:#888; font-size:11px; margin-top:8px; text-align:center;">Total des votes : 1 337 &nbsp;|&nbsp;
+        Dernière mise à jour : il y a longtemps &nbsp;|&nbsp; Le sondage n'est pas truqué* <br><span
+          style="font-size:10px">(*peut-être
+          un peu truqué)</span></p>
+    </div>
+
+    <hr class="fancy">
+
+    <!-- HIT COUNTER -->
+    <div class="center" style="margin:15px 0;">
+      <p style="color:#ffff00; font-size:14px; margin-bottom:5px;">NOMBRE DE VISITEURS SUR CE SITE :</p>
+      <div class="hit-counter">0 0 0 0 0 0</div>
+      <p style="color:#888; font-size:11px; margin-top:5px;">(Le compteur EST cassé parce que ta mère l'a foutu en l'air
+        en
+        votant pour une carpe)</p>
+    </div>
+
+
+    <hr class="fancy">
+
+    <!-- KVIZ -->
+    <a name="kviz"></a>
+    <div class="section-box">
+      <h2>QUIZ - ÊTES-VOUS VOUS AUSSI UN EXPERT EN MATIÈRE DE « SLIPPERY DICK » ???</h2>
+      <p style="text-align:center; color:#ff8800; font-size:13px">
+        DES QUESTIONS POUR LA VRAIE ÉLITE !!! (réponses ci-dessous, mais PAS DE TRICHERIE !!!)
+      </p>
+
+      <table width="100%" cellpadding="8">
+        <tr>
+          <td valign="top"
+            style="color:#006eff; font-size:14px; line-height:2; border:2px dashed #005500; background:#001100; padding:12px;">
+            <b style="color:#ffff00">Question 1 :</b> Pourquoi ce poisson s'appelle-t-il « glissant » ?<br>
+            A) Il est rapide<br>
+            B) Il est recouvert de mucus <br>
+            C) Le pêcheur ne l'a pas attrapé<br>
+            D) Il vient d'un endroit appelé Slippery Beach<br>
+            <br>
+            <b style="color:#ffff00">Question 2 :</b> Qu'est-ce que la « protogynie » ?<br>
+            A) Un type de danse<br>
+            B) Une maladie des poissons<br>
+            C) Une femelle qui change de sexe pour devenir un mâle<br>
+            D) Un rappeur latino<br>
+            <br>
+            <b style="color:#ffff00">Question 3 :</b> Où dort le « slippery dick » ?<br>
+            A) Caché dans le corail<br>
+            B) Près de la surface<br>
+            C) Enfoui dans le sable <br>
+            D) Tu ne comprends pas que les poissons ne dorment pas ?<br>
+          </td>
+          <td valign="top"
+            style="color:#00ffff; font-size:14px; line-height:2; border:2px dashed #005500; background:#001100; padding:12px;">
+            <b style="color:#ffff00">Question 4 :</b> Que signifie « bivittatus » ?<br>
+            A) Glissant<br>
+            B) Deux rayures <br>
+            C) Un poisson avec un vibromasseur<br>
+            D) Je ne sais pas, je ne suis pas doué en latin<br>
+            <br>
+            <b style="color:#ffff00">Question 5 :</b> Comment nage un poisson glissant ?<br>
+            A) Avec sa queue (comme un poisson normal et ennuyeux)<br>
+            B) En utilisant ses nageoires pectorales <br>
+            C) En combinant toutes ses nageoires<br>
+            D) Il ne nage pas, il se téléporte<br>
+            <br>
+            <b style="color:#ffff00">RÉPONSES CORRECTES : B C C B B</b><br>
+            <span style="color:#ff8800">5/5 = Le maître des connards glissants</span><br>
+            <span style="color:#888">3-4/5 = OK, tu es peut-être un vrai connard</span><br>
+            <span style="color:#ff0000">0-2/5 = T'es un putain de connard</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <hr class="fancy">
+
+    <!-- KNIHA NAVSTEV -->
+
+
+    <hr class="fancy">
+
+    <!-- AWARDS -->
+    <div class="section-box">
+      <h2> RÉCOMPENSES POUR CE SITE </h2>
+      <table class="awards-table" width="100%">
+        <tr>
+          <th>RÉCOMPENSES</th>
+          <th>DE</th>
+          <th>ANNÉE</th>
+        </tr>
+        <tr>
+          <td>Meilleur site web de pêche</td>
+          <td>Moi</td>
+          <td>2026</td>
+        </tr>
+        <tr>
+          <td>Le plus grand accro au téléphone</td>
+          <td>Jubba</td>
+          <td>2026</td>
+        </tr>
+        <tr>
+          <td>Meilleure source de Slippery Dick</td>
+          <td>Moi aussi, salope</td>
+          <td>2026</td>
+        </tr>
+        <tr>
+          <td>Le plus grand fan de Arsenal au monde</td>
+          <td>Stepik</td>
+          <td>2026</td>
+        </tr>
+      </table>
+    </div>
+
+    <hr class="fancy">
+
+    <!-- LINKS -->
+
+
+
+
+    <!-- VISITOR BADGES -->
+    <div class="center" style="margin:15px 0;">
+      <p style="color:#ffff00; font-size:14px; margin-bottom:8px;">AJOUTEZ UN BADGE À VOTRE PAGE !!!</p>
+      <div>
+        <span class="visitor-badge">FAN DE SLIPPERY DICK</span>
+        &nbsp;&nbsp;
+        <span class="visitor-badge" style="border-color:#00ffbf; color:#ffffff;"> SITE DE FANS DE SLIPPERY </span>
+        &nbsp;&nbsp;
+        <span class="visitor-badge" style="border-color:#ff8800; color:#ff8800;"> BEST FISH 2026 </span>
+      </div>
+      <p style="color:#888; font-size:11px; margin-top:5px;">(Copiez le code HTML et collez-le sur votre site web !)</p>
+    </div>
+
+  </div><!-- end main-layout -->
+
+  <!-- BOTTOM MARQUEE -->
+  <marquee class="bottom" behavior="alternate" scrollamount="4">
+    Slippery Dick - WIKI DES FANS
+  </marquee>
+
+  <!-- FOOTER -->
+  <table class="footer-table">
+    <tr>
+      <td>
+        <span style="color:#555; font-size:11px;">Dernière mise à jour : il y a bien longtemps | Nombre de pages : 1
+          (parce que
+          une seule suffit, espèce de salaud) | Réalisé avec Crap et Comic Sans</span>
+        <br>
+        <span style="color:#333; font-size:10px;">Toutes les informations sont « aussi précises que possible », mais je
+          ne suis
+          pas
+          biologiste, donc utilisez-les à vos risques et périls.</span>
+        <br><br>
+        <span style="color:#ffff00; font-size:12px; animation: blink 1s infinite; display:inline-block">Klouzave Pele
+          paix éternelle !
+        </span>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
